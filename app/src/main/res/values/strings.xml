@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RockPaperScissors</string>
+    <string name="result">result</string>
+    <string name="paper_button">paper_button</string>
+    <string name="rock_button">rock_button</string>
+    <string name="scissors_box">scissors_box</string>
+    <string name="machine_choice">machine_choice</string>
+    <string name="paper">paper</string>
+    <string name="rock">rock</string>
+    <string name="scissors">scissors</string>
+    <string name="Paper">Paper</string>
+    <string name="Rock">Rock</string>
+    <string name="Scissors">Scissors</string>
+    <string name="Rock_Paper_Scissors">Rock_Paper_Scissors</string>
+</resources>
