@@ -1,9 +1,11 @@
 package codeclan.com.rockpaperscissors.controllers;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import codeclan.com.rockpaperscissors.R;
@@ -20,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private Player machine;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         this.paper = findViewById(R.id.paper_box);
         this.rock = findViewById(R.id.rock_box);
         this.scissors = findViewById(R.id.scissors_box);
+
 
         this.player1 = new Player("Jeff");
         this.machine = new Player("machine");
@@ -82,6 +86,8 @@ public class MainActivity extends AppCompatActivity {
         machineChoice.setText(machine.getHand());
 
     }
+
+
 
 
 

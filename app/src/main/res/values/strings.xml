@@ -12,4 +12,6 @@
     <string name="Rock">Rock</string>
     <string name="Scissors">Scissors</string>
     <string name="Rock_Paper_Scissors">Rock_Paper_Scissors</string>
+    <string name="rules">Rules</string>
+    <string name="start">Start</string>
 </resources>

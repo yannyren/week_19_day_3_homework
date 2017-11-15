@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".controllers.WelcomeActivity"></activity>
+        <activity android:name=".controllers.WelcomeActivity" />
+        <activity android:name=".controllers.RuleActivity"></activity>
     </application>
 
 </manifest>
